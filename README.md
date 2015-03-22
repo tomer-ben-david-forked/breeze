@@ -51,6 +51,12 @@ resolvers ++= Seq(
 scalaVersion := "2.10.4"
 ```
 
+In addition, for scala 2.11, use the following dependency instead
+
+```scala
+"org.scalanlp" %% "breeze-parent" % "0.12-SNAPSHOT"
+```
+
 For more details on the optional `breeze-natives` module, please watch Sam Halliday's talk at Scala eXchange 2014 [High Performance Linear Algebra in Scala](https://skillsmatter.com/skillscasts/5849-high-performance-linear-algebra-in-scala) ([follow along with high-res slides](http://fommil.github.io/scalax14/#/)).
 
 
